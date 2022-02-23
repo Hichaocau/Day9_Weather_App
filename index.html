@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day9_Weather_App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="hot">
+    <div id="weather">
+        <input type="text" placeholder="Search..." class="input-search" />
+        <div class="content">
+            <h1 class="name">
+                <span class="city">Ha Noi</span>
+                <span>,</span>
+                <span class="country">Vn</span>
+            </h1>
+            <p class="time">2/23/2022, 10:24:15 PM</p>
+            <div class="temperature">
+                <span class="value">30</span>
+                <span><sup>o</sup>C</span>
+            </div>
+            <div class="short-desc">Cloud</div>
+            <div class="more-desc">
+                <div class="visibility">
+                    <i class="far fa-eye"></i>
+                    <span>1000(m)</span>
+                </div>
+                <div class="wind">
+                    <i class="fas fa-wind"></i>
+                    <span>2.5(m/s)</span>
+                </div>
+                <div class="cloud">
+                    <i class="fas fa-cloud-sun"></i>
+                    <span>60(%)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="./main.js"></script>
+</html>
